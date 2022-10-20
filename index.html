@@ -18,13 +18,12 @@
       <div class="logo"></div>
       <nav>
         <p>Seleziona la difficoltà:</p>
-        <select class="form-select" aria-label="Default select example">
-          <option selected>......</option>
-          <option value="normale">Normale</option>
-          <option value="difficile">Difficile</option>
-          <option value="hard">Hard</option>
+        <select id="elements" class="form-select" aria-label="Default select example">
+          <option value="1">Facile</option>
+          <option value="2">Normale</option>
+          <option value="3">Difficile</option>
         </select>
-        <button type="button" class="btn btn-secondary">Play</button>
+        <button id="play" onclick="main()" type="button" class="btn btn-secondary">Play</button>
       </nav>
     </div>
   </header>

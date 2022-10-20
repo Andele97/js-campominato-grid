@@ -1,6 +1,5 @@
 header {
   height: 150px;
-  background-color: blue;
 }
 
 main {
@@ -11,7 +10,6 @@ main {
 
 footer {
   height: 90px;
-  background-color: #E54F6D;
 }
 
 /* HEADER */
@@ -29,12 +27,11 @@ footer {
 
 nav {
   width: 17%;
-  background-color: green;
   display: flex;
 }
 
 p {
-  color: white;
+  color: black;
   font-size: 1.5em;
   margin-right: 20px;
 }

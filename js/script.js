@@ -15,27 +15,20 @@ function explode(numSquare){
 
 function tableGen1(){
   for (let i = 1; i < 101; i++){
-    container.innerHTML += `<div id="${i}" style=" width: calc(100% / 10); height: "calc(100% / 7);" class="square" onclick="explode(${i})"></div>`;
+    container.innerHTML += `<div id="${i}" style=" width: calc(100% / 10); height: calc(100% / 10);" class="square" onclick="explode(${i})"></div>`;
   }
-  square.style.width = generateCalcCss();
-  square.style.height = generateCalcCss();
 }
 
 function tableGen2(){
   for (let i = 1; i < 82; i++){
-    container.innerHTML += `<div id="${i}" style=" width: calc(100% / 9); height: "calc(100% / 7);" class="square" onclick="explode(${i})"></div>`;
-    
+    container.innerHTML += `<div id="${i}" style=" width: calc(100% / 9); height: calc(100% / 9);" class="square" onclick="explode(${i})"></div>`;
   }
-  square.style.width = generateCalcCss();
-  square.style.height = generateCalcCss();
 }
 
 function tableGen3(){
   for(let i = 1; i < 50; i++){
-    container.innerHTML += `<div id="${i}" style=" width: calc(100% / 7); height: "calc(100% / 7);" class="square" onclick="explode(${i})"></div>`;
+    container.innerHTML += `<div id="${i}" style=" width: calc(100% / 7); height: calc(100% / 7);" class="square" onclick="explode(${i})"></div>`;
   }
-  square.style.width = generateCalcCss();
-  square.style.height = generateCalcCss();
 }
 
 function main(){
